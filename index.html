@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Worker Web Worker Demo</title>
+  </head>
+  <body>
+    <h1>Multi-Worker Web Worker Demo</h1>
+    <p>Enter three numbers to calculate their Fibonacci sequences:</p>
+    <input type="number" id="inputNumber1" min="0" value="10" />
+    <input type="number" id="inputNumber2" min="0" value="20" />
+    <input type="number" id="inputNumber3" min="0" value="30" />
+    <button id="calculateButton">Calculate Fibonacci</button>
+    <p id="result1"></p>
+    <p id="result2"></p>
+    <p id="result3"></p>
+
+    <script src="worker.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
